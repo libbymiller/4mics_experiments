@@ -15,7 +15,7 @@ Set it up (I used Raspberry pi OS lite, buster (legacy))
 
 Enable spi using `sudo raspi-config`
 
-Install prerequisites. Might not need sudo for the pip3 but I ran it as sudo as I assumed spi needed it. maybe not!
+Install prerequisites. Might not need sudo for the pip3 but I ran it as sudo as I assumed spi needed it. Maybe not!
 
     sudo apt install git
     sudo apt install python3
@@ -25,11 +25,11 @@ Install prerequisites. Might not need sudo for the pip3 but I ran it as sudo as 
 
 Then
 
-      sudo apt-get update
-      git clone https://github.com/respeaker/seeed-voicecard.git
-      cd seeed-voicecard
-      sudo ./install.sh
-      sudo reboot
+    sudo apt-get update
+    git clone https://github.com/respeaker/seeed-voicecard.git
+    cd seeed-voicecard
+    sudo ./install.sh
+    sudo reboot
       
 test with
 
@@ -37,11 +37,11 @@ test with
     
 output is something like
 
- arecord -l
-**** List of CAPTURE Hardware Devices ****
-card 1: seeed4micvoicec [seeed-4mic-voicecard], device 0: bcm2835-i2s-ac10x-codec0 ac10x-codec0-0 [bcm2835-i2s-ac10x-codec0 ac10x-codec0-0]
-  Subdevices: 1/1
-  Subdevice #0: subdevice #0
+    > arecord -l
+     **** List of CAPTURE Hardware Devices ****
+     card 1: seeed4micvoicec [seeed-4mic-voicecard], device 0: bcm2835-i2s-ac10x-codec0 ac10x-codec0-0 [bcm2835-i2s-ac10x-codec0 ac10x-codec0-0]
+     Subdevices: 1/1
+     Subdevice #0: subdevice #0
   
   
  Then 
