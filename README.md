@@ -49,7 +49,7 @@ card 1: seeed4micvoicec [seeed-4mic-voicecard], device 0: bcm2835-i2s-ac10x-code
      git clone https://github.com/respeaker/mic_array.git
      cd mic_array
      
- then checkout `4_mic_mic_array.py` and `pixels_4mic.py` from this repo and copy them into that directory
+ then checkout `mic_array_4mics.py` and `pixels_4mic.py` from this repo and copy them into that directory
  
  `sudo python3 mic_array.py` to run it
  
